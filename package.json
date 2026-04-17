@@ -1,0 +1,23 @@
+{
+  "name": "@neuruh/axon-adapter-sdk",
+  "version": "0.1.0",
+  "description": "Plugin development kit for the AXON Gateway.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "lint": "eslint src"
+  },
+  "keywords": ["axon", "mcp", "agent", "ai", "adapter", "sdk"],
+  "license": "MIT",
+  "author": "Neuruh LLC <hello@neuruh.com>",
+  "repository": { "type": "git", "url": "https://github.com/NeuruhAI/axon-adapter-sdk" },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "vitest": "^1.3.0"
+  },
+  "peerDependencies": {
+    "zod": ">=3.22.0"
+  }
+}
